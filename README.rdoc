@@ -1,0 +1,8 @@
+= Wikipedia TFIDF
+== What's this?
+WP2TXT(http://wp2txt.rubyforge.org/) でテキスト化された日本語 Wikipedia テキストデータから、各文書における形態素の TF-IDF を計算する。
+
+Perl の MeCab バインディングが利用可能な環境で実行して下さい。
+
+== Usage
+$ cat plain_dumped_wikipedia.txt | perl tfidf.pl > out.txt
